@@ -23,5 +23,12 @@ public class AIController {
     	
       return string;
     }
+
+    @GetMapping("/call")
+    public String callAi() {
+     return "Return Comming";
+ }
+
+
 }
 
